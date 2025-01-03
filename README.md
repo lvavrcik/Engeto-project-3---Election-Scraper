@@ -15,9 +15,10 @@ The list of required libraries and their versions is stored in the requirements.
 For installation, creating of a new virtual environment is recommended.
 With the manager installed, you can install the libraries as follows:
 
- $ pip 3 --version                      # oveření verze manažeru
- 
- $ pip 3 install -r requirements.txt    # instalace knihoven
+ $ pip 3 --version                      # verification of the manager version
+ $ pip 3 install -r requirements.txt    # installation of libraries
 
  ### Starting the project ###
- 
+Starting the project is via terminal/command line and will require 2 arguments:
+* First argument is the url from the "select municipality" column (marked with an "X")
+* Second argument is the resulting file name in which the table will be saved. It must end with the extension ".csv".
