@@ -6,4 +6,5 @@ Code for 3rd Engeto project - Election scraper
 
 # Election scraper #
 ## Project description ##
-The aim of this project is to extract the [results of the 2017 elections to the Chamber of Deputies of the Parliament of the Czech Republic](https://www.volby.cz/pls/ps2017nss/ps3?xjazyk=CZ). 
+The aim of this project is to extract the [results of the 2017 elections to the Chamber of Deputies of the Parliament of the Czech Republic](https://www.volby.cz/pls/ps2017nss/ps3?xjazyk=CZ) via scraping. 
+The script, after specifying the selected URL, downloads the data of the corresponding cities along with the election results and saves them to the selected CSV file.
