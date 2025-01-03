@@ -25,5 +25,5 @@ Starting the project is via terminal/command line and will require 2 arguments:
 * First argument is the url from the "select municipality" column (marked with an "X")
 * Second argument is the resulting file name in which the table will be saved. It must end with the extension ".csv".
 
-The whole command then looks like this:¨
+The whole command then looks like this:  
 `Engeto-project 3-Election scraper.py 'https://www.volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=2&xnumnuts=2101' 'vysledky_benesov.csv'`
