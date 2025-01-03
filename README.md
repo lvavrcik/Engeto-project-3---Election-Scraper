@@ -15,8 +15,10 @@ The list of required libraries and their versions is stored in the requirements.
 For installation, creating of a new virtual environment is recommended.
 With the manager installed, you can install the libraries as follows:
 
-| $ pip 3 --version                     | # verification of the manager version     |
-| $ pip 3 install -r requirements.txt   | # installation of libraries               |
+| Command                                | Description                            |
+|----------------------------------------|----------------------------------------|
+| `$ pip3 --version`                     | Verifies the version of the package manager |
+| `$ pip install -r requirements.txt`    | Installs libraries from requirements.txt |
 
  ### Starting the project ###
 Starting the project is via terminal/command line and will require 2 arguments:
