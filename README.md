@@ -33,10 +33,10 @@ Voting results for Benešov district.
 * 1st argument `https://www.volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=2&xnumnuts=2101`
 * 2nd argument `vysledky_benesov.csv`
 
-**Running the script**:
+**Running the script**:  
 `Engeto-project 3-Election scraper.py 'https://www.volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=2&xnumnuts=2101' 'vysledky_benesov.csv'`
 
-**Download progress**:
+**Download progress**:  
 CONNECTING to: 'https://www.volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=2&xnumnuts=2101'  
 DOWNLOADING DATA from: 'https://www.volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=2&xnumnuts=2101'  
 SAVING DATA to: '<pathdescription>/vysledky_benesov.csv'  
