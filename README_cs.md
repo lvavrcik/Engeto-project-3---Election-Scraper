@@ -23,7 +23,7 @@ Po instalaci správce  knihovny nainstalovat následujícím způsobem:
 * Druhým argumentem je název výsledného souboru, do kterého bude tabulka uložena. Tento soubor musí končit příponou „.csv“.
 
 Celý příkaz vč. argumentů může vypadat takto:  
-`Engeto-project 3-Election scraper.py 'https://www.volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=2&xnumnuts=2101' 'vysledky_benesov.csv'`
+`Engeto-project3-Election_scraper.py 'https://www.volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=2&xnumnuts=2101' 'vysledky_benesov.csv'`
 
 ### Ukázka projektu ###
 Volební výsledky v okrese Benešov.
@@ -31,7 +31,7 @@ Volební výsledky v okrese Benešov.
 * 2. argument `vysledky_benesov.csv`
 
 **Spuštění skriptu**:  
-`Engeto-project 3-Election scraper.py 'https://www.volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=2&xnumnuts=2101' 'vysledky_benesov.csv'`
+`python Engeto-project3-Election_scraper.py 'https://www.volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=2&xnumnuts=2101' 'vysledky_benesov.csv'`
 
 **Průběh stahování/skriptu**:  
 CONNECTING to: 'https://www.volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=2&xnumnuts=2101'  
