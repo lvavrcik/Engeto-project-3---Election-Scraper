@@ -1,3 +1,10 @@
+"""
+Engeto-project3-Election_scraper.py - 3rd Engeto project - election scraper
+author: Lukáš Vavrčík
+email: lukasvavrcik@gmail.com
+discord: lukardi.
+"""
+
 import os
 import sys
 import csv
