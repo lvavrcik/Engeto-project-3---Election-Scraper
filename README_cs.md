@@ -18,3 +18,30 @@ Po instalaci správce  knihovny nainstalovat následujícím způsobem:
 | `$ pip install -r requirements.txt`    | Nainstaluje knihovny z requirements.txt |
 
  ### Spuštění projektu ###
+ Spuštění projektu se provádí přes terminál/příkazový řádek a vyžaduje 2 argumenty:
+* Prvním argumentem je URL adresa ze sloupce „vybrat obec“ (označená symbolem „X“).
+* Druhým argumentem je název výsledného souboru, do kterého bude tabulka uložena. Tento soubor musí končit příponou „.csv“.
+
+Celý příkaz vč. argumentů může vypadat takto:  
+`Engeto-project 3-Election scraper.py 'https://www.volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=2&xnumnuts=2101' 'vysledky_benesov.csv'`
+
+### Ukázka projektu ###
+Volební výsledky v okrese Benešov.
+* 1. argument `https://www.volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=2&xnumnuts=2101`
+* 2. argument `vysledky_benesov.csv`
+
+**Spuštění skriptu**:  
+`Engeto-project 3-Election scraper.py 'https://www.volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=2&xnumnuts=2101' 'vysledky_benesov.csv'`
+
+**Průběh stahování/skriptu**:  
+CONNECTING to: 'https://www.volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=2&xnumnuts=2101'  
+DOWNLOADING DATA from: 'https://www.volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=2&xnumnuts=2101'  
+SAVING DATA to: '<pathdescription>/vysledky_benesov.csv'  
+Closing program 
+
+**Částečný výstup**:
+| Code   | City        | Registered | Envelopes | Valid | Občanská demokratická strana | ... |
+|--------|-------------|------------|-----------|-------|------------------------------|-----|
+| 529303 | Benešov     | 13 104     | 8 485     | 8 437 | 1 052                        | ... |
+| 532568 | Bernartice  | 191        | 148       | 148   | 4                            | ... |
+| ...    | ...         | ...        | ...       | ...   | ...                          | ... |
