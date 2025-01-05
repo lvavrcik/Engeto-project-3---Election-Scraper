@@ -7,10 +7,10 @@ Cílem tohoto projektu je získat [výsledky voleb do Poslanecké sněmovny Parl
 Skript po zadání vybrané URL adresy stáhne data příslušných měst spolu s výsledky voleb a uloží je do vybraného CSV souboru.
 
 ### Instalace knihoven ###
-Seznam požadovaných knihoven a jejich verzí je uložen v souboru requirements.txt.
+Seznam požadovaných knihoven a jejich verzí je uložen v souboru `requirements.txt`.
 
 Pro instalaci se doporučuje vytvořit nové virtuální prostředí.
-Po instalaci správce  knihovny nainstalovat následujícím způsobem:
+Po vytvoření nainstalujte knihovny knihovny následujícím způsobem:
 
 | Příkaz                                 | Popis                                   |
 |----------------------------------------|----------------------------------------|
@@ -19,8 +19,8 @@ Po instalaci správce  knihovny nainstalovat následujícím způsobem:
 
  ### Spuštění projektu ###
  Spuštění projektu se provádí přes terminál/příkazový řádek a vyžaduje 2 argumenty:
-* Prvním argumentem je URL adresa ze sloupce „vybrat obec“ (označená symbolem „X“).
-* Druhým argumentem je název výsledného souboru, do kterého bude tabulka uložena. Tento soubor musí končit příponou „.csv“.
+* Prvním argumentem je URL adresa odkazující na územní celek, který chceme scrapovat 
+* Druhým argumentem je název výsledného souboru, do kterého bude tabulka uložena. Tento soubor musí končit příponou „.csv“
 
 Celý příkaz vč. argumentů může vypadat takto:  
 `Engeto-project3-Election_scraper.py 'https://www.volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=2&xnumnuts=2101' 'vysledky_benesov.csv'`
