@@ -10,7 +10,7 @@ The aim of this project is to extract the [results of the 2017 elections to the 
 The script, after specifying the selected URL, downloads the data of the corresponding cities along with the election results and saves them to the selected CSV file.
 
 ### Installation of libraries ###
-The list of required libraries and their versions is stored in the requirements.txt file.
+The list of required libraries and their versions is stored in the `requirements.txt` file.
 
 For installation, creating of a new virtual environment is recommended.
 With the manager installed, you can install the libraries as follows:
@@ -22,8 +22,8 @@ With the manager installed, you can install the libraries as follows:
 
  ### Starting the project ###
 Starting the project is via terminal/command line and will require 2 arguments:
-* First argument is the url from the "select municipality" column (marked with an "X")
-* Second argument is the resulting file name in which the table will be saved. It must end with the extension ".csv".
+* The first argument is the URL address referring to the websites with municipality results we want to scrape
+* Second argument is the resulting file name in which the table will be saved. It must end with the extension ".csv"
 
 The whole command then looks like this:  
 `Engeto-project3-Election_scraper.py 'https://www.volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=2&xnumnuts=2101' 'vysledky_benesov.csv'`
